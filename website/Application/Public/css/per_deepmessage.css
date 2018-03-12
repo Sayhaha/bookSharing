@@ -1,0 +1,84 @@
+.message_content
+{
+	height: 280px;
+	background: yellow;
+	overflow-y:scroll;
+}
+textarea
+{
+	margin-left: 60px;
+}
+.send
+{
+	width:675px;
+	margin-left:60px;
+}
+.send span
+{
+	margin-right: 10px;
+	float: right;
+}
+.send button
+{
+	float: right;
+}
+.chat_content
+{
+	width:673px;
+/*	height: 600px;*/
+	background: gray;
+	margin-bottom:25px;
+	margin-left: 60px;
+	position: relative;
+}
+.self
+{
+	width: 673px;
+	height: 172px;
+	background: red;
+
+}
+.other
+{
+	width: 673px;
+	height: 172px;
+	background: green;
+
+}
+.self img
+{
+	height: 50px;
+	width: 50px;
+	position:absolute;
+	right:0px;
+	top:172px;
+}
+.self_content
+{
+	max-width: 400px;
+	background: orange;
+	float: right;
+	padding: 10px;
+	position: absolute;
+	right:50px;
+	top:172px;
+}
+.other img
+{
+	height: 50px;
+	width: 50px;
+	position:absolute;
+	left:0px;
+	top:0px;
+
+}
+.other_content
+{
+	max-width: 400px; 
+	background: orange;
+	float: left;
+	padding: 10px;
+	position:absolute;
+	left:50px;
+	top:0px;
+}

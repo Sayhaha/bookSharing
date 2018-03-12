@@ -1,0 +1,476 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#content
+{
+	height:500px;
+	width: 100%;
+}
+#leftside
+{
+	width: 200px;
+	height: 466px;
+	float: left;
+	border-right: 1px solid #ccc;
+	padding-top: 36px;
+}
+#leftside ul li 
+{
+	height: 50px;
+	text-align: center;
+	margin-top:15px;
+}
+#leftside ul li a
+{
+	font-size: 20px;
+	text-decoration: none;
+	color: gray
+}
+#leftside ul li a:hover
+{
+	color:#e74c3c;
+}
+#rightside
+{
+	width: 800px;
+	height: 500px;
+	/*border:1px solid #aa9c9c;*/
+	margin-left: 250px;
+	margin-top: 75px;
+}
+.title{
+	font-size: 25px;
+	width: 800px;
+	height: 35px;
+	padding:10px 0;
+}
+.nav_cont{
+    width: 800px;
+    height: 40px;
+    background-color: #ec2b38;
+    border-radius: 3px;
+    box-shadow: 1px gray;
+}
+.nav_cont ul{
+	list-style: none;
+	float: left;
+}
+.nav_cont ul li {
+	float: left;
+	width: 80px;
+	line-height: 40px;
+	padding: 0 10px;
+	font-size: 15px;
+}
+.nav_cont ul li a{
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+}
+.nav_content ul li a{
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+}
+.li_one{
+	background-color: white;
+	border-top: 2px solid #ec2b38;
+	line-height: 38px !important;
+}
+.form{
+	width: 800px;
+}
+.left{
+	width: 450px;
+	float: left;
+	margin-top: 10px;
+}
+.left ul{
+	margin-left: 10px;
+	font-size: 14px;
+	color: gray;
+}
+.left li{
+	margin-top: 20px;
+}
+.left input{
+	width: 300px;
+	height: 25px;
+	margin-left: 20px;
+	border:1px solid #ccc;
+}
+.left textarea{
+	width: 300px;
+	height: 80px;
+	border:1px solid #ccc;
+	margin-left: 20px;
+}
+.intro{
+	width: 20px;
+	height: 20px;
+}
+.save{
+	width: 60px !important;
+	height: 25px !important;
+	border-radius: 5px;
+	margin-left: 100px !important;
+}
+.right{
+	width: 150px;
+	float: left;
+	/*margin-left: 380px;*/
+}
+.own_pic{
+	width: 150px;
+	height: 150px;
+	border:1px solid #ccc;
+	background: url('./img/1.jpg');
+	background-size: 150px 150px;
+	/*margin-top: 30px;*/
+	float: left;
+}
+.own_pic img{
+	width: 150px;
+	height: 150px;
+}
+.right input{
+	width: 145px;
+	height: 25px;
+	border-radius: 5px;
+	/*border: 1px solid #ccc;*/
+	margin: 10px 5px;
+	font-size: 12px;
+}
+.sex{
+	width: 9px !important;
+	height: 9px !important;
+	margin-top: 5px;
+	margin-left: 50px !important;
+}
+
+/*我的共享*/
+.record_one,.record_two{
+    width: 800px;
+    display: block;
+    color: gray;
+    overflow-y: auto;
+    height: 400px;
+    float: left;
+    }
+.record_two{
+	display: none;
+}
+.line{
+	width: 600px;
+	margin-left: 100px;
+	margin-top: 15px;
+}
+.sep{
+	width: 480px;
+	height: 15px;
+}
+.share{
+	position: relative;
+	color:  #ec2b38;
+
+}
+.s_con{
+	width: 450px;
+	height: 70px;
+	padding: 15px;	
+	background: #f0f0f0;
+	border-radius: 10px;
+	margin-left: 40px;
+}
+.s_con:before {
+  content:"";
+  position: absolute;
+  left: 14px;
+  top: 33px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid #f0f0f0;
+  border-bottom: 13px solid transparent;
+}
+.tab{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 33px;
+	left: -26px;
+}
+.tab i{
+	font-size: 35px;
+}
+.tab:havor{
+	color: #ec2b38;
+}
+.left_pic{
+	width: 70px;
+	height: 60px;
+	float: left;
+	padding: 5px;
+}
+.left_pic img{
+	width: 70px;
+	height: 60px;
+}
+.right_con{
+	width: 350px;
+	height: 70px;
+	float: left;
+	margin-left: 12px;
+}
+.right_con div{
+	margin-top: 5px;
+}
+.right_con a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+.right_con a:hover{
+	color:#ec2b38;
+	text-decoration: blink;
+}
+.right_con span{
+	font-size: 11px;	
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.r_one,.r_two{
+	color: gray;
+}
+.r_three,.r_four{
+	color: red;
+}
+.record_one ul,.record_two ul,.record_three ul{
+	margin-left: 50px;
+}
+.record_one li,.record_two li,.record_three li{
+	border-bottom: 1px dashed #ccc;
+	width: 477px;
+	padding: 10px 100px;
+	margin: 0;
+	font-size: 15px;
+}
+.record_one li a,.record_two li a,.record_three li a{
+	color: #1368d7;
+	text-decoration: none;
+}
+.borrow,.collect{
+	color: #ec2b38;
+}
+.book_manage{
+	width: 800px;
+	height: 385px;
+	overflow-y: auto;
+}
+.book_show{
+	width: 160px;
+	height: 224px;
+	border:1px solid #ddd;
+	margin: 20px;
+	float: left;
+	cursor: pointer;
+}
+.pic_show{
+	width: 160px;
+	height: 130px;
+	position: relative;
+}
+.pic_show img{
+	width: 160px;
+	height: 130px;
+	
+}
+.edit{
+	width: 160px;
+	height: 30px;
+	background: black;
+	opacity: 0.5;
+	position: absolute;
+	top: 100px;
+	display: none;
+}
+.pic_show:hover .edit{
+    display: block;
+}
+.edit span{
+	margin-left: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+.edit span:hover{
+   	color:red;
+}
+.details p{
+	margin-top: 10px;
+	color:#110d0d80;
+	margin: 0;
+	margin-left: 5px ;
+	margin-top: 10px;
+	width: 114px;
+	/*height: 18px;*/
+	float: left;
+}
+.details span{
+	width: 36px;
+	height: 18px;
+	color: gray;
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px; 
+}
+.add_pic{
+	width: 200px;
+	height: 224px;
+	border:1px dashed #ddd;
+	margin: 20px;
+	float: left;
+	cursor: pointer;
+}
+.add_pic p{
+	text-align: center;
+	color: gray;
+}
+.add_icon{
+	font-size: 12em;
+	width: 200px;
+	height: 130px;
+	line-height: 130px;
+}
+
+/*弹出框样式*/
+#close{ 
+    background: url(../img/ui.png) -60px -466px;
+    width:12px; 
+    height:15px; 
+    cursor:pointer; 
+    position:absolute; 
+    right:5px; 
+    top:15px; 
+    text-indent:-999em;
+    }
+#mask{ 
+    background-color:#ccc;
+    opacity:0.4;
+    filter: alpha(opacity=40); 
+    position:absolute; 
+    left:0;
+    top:0;
+    z-index:1000;
+    }
+#edit_page{ 
+    position:fixed;
+    z-index:1001;
+    }
+.editCon{ 
+    position:relative; 
+    width:400px;
+    height:325px;
+    background:white;
+    border:1px solid #ccc;
+    text-align: center;
+}
+.editCon span{
+	width: 50px;
+	height: 30px;
+}
+.editCon p{
+	width: 400px;
+	font-size: 15px;
+}
+.editCon p input{
+	width: 200px;
+	height: 28px;
+	margin: 10px;
+	border:1px solid gray;
+}
+.editCon textarea{
+	width: 200px;
+	height: 100px;
+	border:1px solid gray;
+	margin: 10px;
+}
+.addCon{
+	position:relative; 
+    width:400px;
+    height:320px;
+    background:white;
+    border:1px solid #ccc;
+    text-align: center;
+}
+.addCon span{
+	width: 50px;
+	height: 30px;
+}
+.addCon p{
+	width: 240px;
+	font-size: 15px;
+}
+.addCon p input{
+	width: 160px;
+	height: 28px;
+	margin: 10px;
+	border:1px solid gray;
+}
+.addCon textarea{
+	width: 160px;
+	height: 100px;
+	border:1px solid gray;
+	margin: 10px;
+}
+.upload_pic{
+	margin-right: 20px;
+	float: right;
+	margin-top: -210px;
+    width: 120px;
+    height: 120px;
+}
+.upload_pic img{
+	width: 120px;
+	height: 120px;
+}
+.upload_btn{
+	float: right;
+	width: 120px;
+	margin-right: 20px;
+	margin-top: -70px;
+}
+.confirm_one{
+	width: 50px;
+	height: 30px;
+	margin-left: -126px;
+	margin-top: 5px;
+}
+.delete_one{
+	width: 50px;
+	height: 30px;
+	margin-left: 35px;
+	margin-top: 5px;
+}
+.book_edit{
+	width: 400px;
+	height: 45px;
+	background-color:  #ec2b38;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+}
+.confirm{
+	width:50px;
+	height: 30px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.delete{
+	width: 50px;
+	height: 30px;
+	margin-left: 50px;
+	margin-top: 5px;
+}

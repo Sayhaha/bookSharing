@@ -1,0 +1,34 @@
+[ 2017-11-19T00:10:05+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/[object%20File]
+ERR: 非法操作:[object File]
+
+[ 2017-11-19T00:10:09+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/[object%20File]
+ERR: 非法操作:[object File]
+
+[ 2017-11-19T19:07:06+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perManage
+ERR: syntax error, unexpected '=', expecting ',' or ';'
+
+[ 2017-11-19T20:34:22+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perManage
+ERR: syntax error, unexpected ')'
+
+[ 2017-11-19T21:16:02+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2017-11-19T21:36:25+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perManage
+ERR: syntax error, unexpected 'public' (T_PUBLIC)
+
+[ 2017-11-19T22:58:43+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perManage
+ERR: 1364:Field 'book_data' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `book_details` (`book_name`,`book_introduce`,`book_cost`,`book_img`) VALUES ('第六课','好书','5','bg1.jpg')
+
+[ 2017-11-19T23:05:25+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perManage
+ERR: 1292:Incorrect date value: '' for column 'book_data' at row 1
+ [ SQL语句 ] : INSERT INTO `book_details` (`book_name`,`book_introduce`,`book_cost`,`book_img`,`book_data`) VALUES ('书','好书','5','bg1.jpg','')
+
+[ 2017-11-19T23:18:54+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perManage
+ERR: 1364:Field 'book_cat' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `book_details` (`book_name`,`book_introduce`,`book_cost`,`book_img`,`book_data`) VALUES ('书','好书','6','bg1.jpg','2017-11-19')
+
+[ 2017-11-19T23:25:48+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perManage
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`share_platform`.`book_details`, CONSTRAINT `book_details_ibfk_1` FOREIGN KEY (`book_cat`) REFERENCES `book_category` (`cat_id`))
+ [ SQL语句 ] : INSERT INTO `book_details` (`book_name`,`book_introduce`,`book_cost`,`book_img`,`book_data`,`book_owner`) VALUES ('书','好书','5','bg1.jpg','2017-11-19','1')
+

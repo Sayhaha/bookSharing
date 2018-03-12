@@ -1,0 +1,10 @@
+.order_form
+{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+}
+.order_form form ul li
+{
+    margin-bottom:10px;
+}

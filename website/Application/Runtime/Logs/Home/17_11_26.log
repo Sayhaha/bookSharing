@@ -1,0 +1,82 @@
+[ 2017-11-26T13:41:16+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: syntax error, unexpected '$this' (T_VARIABLE)
+
+[ 2017-11-26T14:09:13+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perShare
+ERR: Call to a member function where() on null
+
+[ 2017-11-26T14:10:51+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perShare
+ERR: Call to a member function where() on null
+
+[ 2017-11-26T14:11:19+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perShare
+ERR: Call to a member function where() on null
+
+[ 2017-11-26T14:17:23+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perShare
+ERR: syntax error, unexpected '='
+
+[ 2017-11-26T14:18:53+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perShare
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `book_details` WHERE ( book_owner=Array ) 
+
+[ 2017-11-26T14:49:23+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perShare
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'in Array )' at line 1
+ [ SQL语句 ] : SELECT * FROM `book_details` WHERE ( in Array ) 
+
+[ 2017-11-26T14:49:50+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perShare
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'in "$book_id" )' at line 1
+ [ SQL语句 ] : SELECT * FROM `book_details` WHERE ( in "$book_id" ) 
+
+[ 2017-11-26T14:51:36+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perShare
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array )' at line 1
+ [ SQL语句 ] : SELECT * FROM `book_details` WHERE ( book_id in Array ) 
+
+[ 2017-11-26T14:54:49+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perShare
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM `book_details` WHERE ( book_id = array('in','Array' ) 
+
+[ 2017-11-26T14:57:12+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perShare
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'in ) AND (  (  `book_id` = '36' ) AND (  `book_id` = '37' ) AND (  `book_id` = '' at line 1
+ [ SQL语句 ] : SELECT * FROM `book_details` WHERE (  in ) AND (  (  `book_id` = '36' ) AND (  `book_id` = '37' ) AND (  `book_id` = '38' ) ) 
+
+[ 2017-11-26T14:58:11+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perShare
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'in ) AND (  (  `book_id` = '36' ) AND (  `book_id` = '37' ) AND (  `book_id` = '' at line 1
+ [ SQL语句 ] : SELECT * FROM `book_details` WHERE (  in ) AND (  (  `book_id` = '36' ) AND (  `book_id` = '37' ) AND (  `book_id` = '38' ) ) 
+
+[ 2017-11-26T14:58:58+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perShare
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'between ) AND (  (  `book_id` = '36' ) AND (  `book_id` = '37' ) AND (  `book_id' at line 1
+ [ SQL语句 ] : SELECT * FROM `book_details` WHERE (  between ) AND (  (  `book_id` = '36' ) AND (  `book_id` = '37' ) AND (  `book_id` = '38' ) ) 
+
+[ 2017-11-26T15:05:45+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perShare
+ERR: 表达式错误:36
+
+[ 2017-11-26T16:17:21+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perOrder
+ERR: syntax error, unexpected ')'
+
+[ 2017-11-26T18:27:10+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perOrder
+ERR: syntax error, unexpected ','
+
+[ 2017-11-26T18:27:53+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perOrder
+ERR: syntax error, unexpected ','
+
+[ 2017-11-26T18:27:56+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perOrder
+ERR: syntax error, unexpected ','
+
+[ 2017-11-26T18:27:57+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perOrder
+ERR: syntax error, unexpected ','
+
+[ 2017-11-26T18:45:10+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perOrder
+ERR: 1054:Unknown column 'order_list' in 'field list'
+ [ SQL语句 ] : SELECT `user_name`,`order_list`,`order_status` FROM `order_list` INNER JOIN user_info on user_info.user_id = order_list.borrower_id  WHERE `sharer_id` = 6 
+
+[ 2017-11-26T20:59:21+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/Delete/book_id/36
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`share_platform`.`order_list`, CONSTRAINT `book_id` FOREIGN KEY (`book_id`) REFERENCES `book_details` (`book_id`))
+ [ SQL语句 ] : DELETE FROM `book_details` WHERE `book_id` = 36
+
+[ 2017-11-26T21:51:10+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/
+ERR: 非法操作:index
+
+[ 2017-11-26T23:49:27+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perOrder.html/order_id/3
+ERR: 非法操作:perOrder.html
+
+[ 2017-11-26T23:50:29+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perOrder.html/order_id/3
+ERR: 非法操作:perOrder.html
+

@@ -1,0 +1,116 @@
+[ 2017-11-17T18:40:16+08:00 ] 127.0.0.1 /index.php/Home/book/book
+ERR: 无法加载控制器:Book
+
+[ 2017-11-17T18:40:52+08:00 ] 127.0.0.1 /index.php/Home/book/bookDetails
+ERR: 无法加载控制器:Book
+
+[ 2017-11-17T18:40:58+08:00 ] 127.0.0.1 /index.php/Home/book/bookDetails.html
+ERR: 无法加载控制器:Book
+
+[ 2017-11-17T18:42:30+08:00 ] 127.0.0.1 /index.php/Home/Book/bookDetails.html
+ERR: 无法加载控制器:Book
+
+[ 2017-11-17T18:43:16+08:00 ] 127.0.0.1 /index.php/Home/Book/bookDetails
+ERR: 无法加载控制器:Book
+
+[ 2017-11-17T18:48:41+08:00 ] 127.0.0.1 /index.php/Home/Book/bookDetails
+ERR: 无法加载控制器:Book
+
+[ 2017-11-17T18:49:01+08:00 ] 127.0.0.1 /index.php/Home/Book/bookDetails.html
+ERR: 无法加载控制器:Book
+
+[ 2017-11-17T18:49:46+08:00 ] 127.0.0.1 /index.php/Home/Book/bookDetails.html
+ERR: 无法加载控制器:Book
+
+[ 2017-11-17T19:39:49+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/_SEIF_
+ERR: 非法操作:_SEIF_
+
+[ 2017-11-17T19:41:05+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/__SEIF__
+ERR: 非法操作:__SEIF__
+
+[ 2017-11-17T19:42:18+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/__SEIF__
+ERR: 非法操作:__SEIF__
+
+[ 2017-11-17T19:42:23+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/__SEIF__
+ERR: 非法操作:__SEIF__
+
+[ 2017-11-17T20:38:08+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: 1364:Field 'user_name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `user_info` () VALUES ()
+
+[ 2017-11-17T20:38:17+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: 1364:Field 'user_name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `user_info` () VALUES ()
+
+[ 2017-11-17T20:39:07+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: 1364:Field 'user_name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `user_info` () VALUES ()
+
+[ 2017-11-17T20:39:58+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: 1364:Field 'user_name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `user_info` () VALUES ()
+
+[ 2017-11-17T20:40:05+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: 1364:Field 'user_name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `user_info` () VALUES ()
+
+[ 2017-11-17T21:11:53+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2017-11-17T21:12:16+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2017-11-17T21:12:21+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo.html
+ERR: Cannot use object of type Think\Model as array
+
+[ 2017-11-17T21:12:36+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: Cannot use object of type Think\Model as array
+
+[ 2017-11-17T21:54:18+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: Cannot use object of type Think\Model as array
+
+[ 2017-11-17T21:54:26+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: Cannot use object of type Think\Model as array
+
+[ 2017-11-17T21:54:36+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: Cannot use object of type Think\Model as array
+
+[ 2017-11-17T21:55:52+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: Cannot use object of type Think\Model as array
+
+[ 2017-11-17T22:02:07+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: Cannot use object of type Think\Model as array
+
+[ 2017-11-17T22:03:27+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: Cannot use object of type Think\Model as array
+
+[ 2017-11-17T22:03:37+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: Cannot use object of type Think\Model as array
+
+[ 2017-11-17T22:04:08+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: Cannot use object of type Think\Model as array
+
+[ 2017-11-17T22:04:20+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: Cannot use object of type Think\Model as array
+
+[ 2017-11-17T22:04:23+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: Cannot use object of type Think\Model as array
+
+[ 2017-11-17T22:04:41+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: Cannot use object of type Think\Model as array
+
+[ 2017-11-17T22:05:37+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: Cannot use object of type Think\Model as array
+
+[ 2017-11-17T22:27:42+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/__ROOT__/Application/Public/css/font-awesome-icon.css
+ERR: 非法操作:__ROOT__
+
+[ 2017-11-17T22:27:42+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/__ROOT__/Application/Public/css/personal.css
+ERR: 非法操作:__ROOT__
+
+[ 2017-11-17T22:27:42+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/__ROOT__/Application/Public/css/basic.css
+ERR: 非法操作:__ROOT__
+
+[ 2017-11-17T22:52:08+08:00 ] 127.0.0.1 /index.php/Home/PerCenter/perInfo
+ERR: syntax error, unexpected '=', expecting ',' or ')'
+

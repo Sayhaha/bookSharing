@@ -1,0 +1,10 @@
+[ 2017-11-15T19:39:43+08:00 ] ::1 /www/booksharing/website/index.php/Public/img/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.225277s ]
+
+[ 2017-11-15T19:39:46+08:00 ] ::1 /www/booksharing/website/index.php/Public/img/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.227308s ]
+

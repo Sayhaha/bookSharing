@@ -1,0 +1,21 @@
+footer{
+  padding: 10px 0;
+  text-align: center;
+}
+footer ul{
+  margin:0 auto;
+  text-align: center;
+
+}
+footer ul li{
+  display: inline-block;
+  margin-right: 25px;
+}
+footer a{
+  font-size: 14px;
+  color: #99a1a6;
+
+}
+footer  span{
+  margin: 0 auto;
+}

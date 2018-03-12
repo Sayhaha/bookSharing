@@ -1,0 +1,165 @@
+.message_content
+{
+	height: 390px;
+	overflow-y:scroll;
+	margin-top: 10px;
+	width: 800px;
+}
+.m_people
+{
+	height: 69px;
+	width: 760px;
+	border-bottom:1px dashed gray;
+	font-size: 15px;
+}
+.m_content
+{
+	height: 50px;
+	width: 760px;
+	background: gray;
+}
+.m_img
+{
+	
+	padding-top:10px;
+	float: left;
+}
+.m_img img
+{
+	height: 50px;
+	width:50px;
+}
+.mn
+{	float: left;
+	height:22px;
+	width:645px;
+	margin:10px 0 0 25px; 
+	background: #ffc0cb4d;
+}
+.mn a{
+	text-decoration: none;
+	color: black;
+}
+.m_time
+{
+	float:right;
+}
+.p_content
+{
+	float:left;
+	height: 22px;
+	width: 645px;
+	/*background: #00800099;*/
+	margin:5px 0 0 25px;
+	color: gray;
+}
+.xt_news,.mj_news
+{
+	width: 795px;
+	height: 385px;
+	margin-top: 25px;
+	margin-left: 5px;
+	/*background: yellow;*/
+	overflow-y:scroll;
+	display: block;
+	float: left;
+}
+.mj_news{
+	display: none;
+}
+textarea
+{
+	margin-left: 60px;
+	margin-top: 20px;
+}
+.send
+{
+	width:675px;
+	margin-left:60px;
+}
+.send span
+{
+	margin-right: 10px;
+	float: right;
+}
+.send button
+{
+	float: right;
+	width: 50px;
+	height: 35px;
+}
+.chat_content
+{
+	margin-left: 35px;
+	margin-top: 20px;
+}
+.self
+{
+	width: 673px;
+	height: 172px;
+	/*background: red;*/
+	position: relative;
+
+}
+.other
+{
+	width: 673px;
+	height: 172px;
+	/*background: green;*/
+    position: relative;
+}
+.self img
+{
+	height: 50px;
+	width: 50px;
+	float: right;
+}
+.self_content
+{
+	max-width: 400px;
+	background:#d8d8d8;
+	float: right;
+	padding: 10px;
+	border-radius: 10px;
+    position: relative;
+    margin-right: 35px;
+}
+.self_content::before {
+    content: "";
+    position: absolute;
+    right: -26px;
+    top: 22px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-left: 26px solid #d8d8d8;
+    border-bottom: 13px solid transparent;
+}
+.other img
+{
+	height: 50px;
+	width: 50px;
+	float: left;
+
+}
+.other_content
+{
+	max-width: 400px; 
+	background: #d8d8d8;
+	float: left;
+	padding: 10px;
+	position:relative;
+	margin-left: 35px;
+	border-radius: 10px;
+}
+.other_content::before {
+    content: "";
+    position: absolute;
+    left: -26px;
+    top: 22px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid #d8d8d8;
+    border-bottom: 13px solid transparent;
+}

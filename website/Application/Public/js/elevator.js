@@ -1,0 +1,29 @@
+$(function(){
+    $("#question").hover(function(){
+      $(this).css({"cursor":"pointer"}).find("img").css({"opacity":"0","width":"0"}).siblings("p").toggle();
+    });
+    $("#question").mouseleave(function(){
+      $(this).find("img").css({"opacity":"1","width":"28px"}).siblings("p").hide();
+    });
+    $("#service").hover(function(){
+      $(this).css({"cursor":"pointer"}).find("img").css({"opacity":"0","width":"0"}).siblings("p").toggle();
+    });
+    $("#service").mouseleave(function(){
+      $(this).find("img").css({"opacity":"1","width":"28px"}).siblings("p").hide();
+    });
+    $("#advice").hover(function(){
+      $(this).css({"cursor":"pointer"}).find("img").css({"opacity":"0","width":"0"}).siblings("p").toggle();
+    });
+    $("#advice").mouseleave(function(){
+      $(this).find("img").css({"opacity":"1","width":"28px"}).siblings("p").hide();
+    });
+    $("#top").hover(function(){
+      $(this).css({"cursor":"pointer"}).find("img").css({"opacity":"0","width":"0"}).siblings("p").toggle();
+    });
+    $("#top").mouseleave(function(){
+      $(this).find("img").css({"opacity":"1","width":"28px"}).siblings("p").hide();
+    });
+    $("#top").click(function(){
+      $("html,body").animate({scrollTop:"0"},500);
+    });
+});
